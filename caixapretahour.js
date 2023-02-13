@@ -8,7 +8,7 @@ function carregar () {
 
     var datasistema = new Date();
     //var horasistema = datasistema.getHours();
-    var horasistema = 9;
+    var horasistema = 11;
 
     switch (horasistema) {
         case 0:
@@ -63,6 +63,16 @@ function carregar () {
             //imagem.alt = ''
             break
         case 10:
+            trechomusica.innerHTML = `eu me invoco, eu brigo, eu faço, eu aconteço, eu boto pra correr. eu mato a cobra e mostro o pau, pra provar pra quem quiser ver e comprovar.`
+            //imagem.src = ''
+            //imagem.alt = ''
+            break
+        case 11:
+            trechomusica.innerHTML = `cultura não é frescura. a brasileira é uma mistura pura, uma loucura a textura. a brasileira é impura, mas tem jogo de cintura, se apura, mistura, não mata, cura.`
+            //image.src = ''
+            //imagem.alt = ''
+            break
+        case 12: 
             trechomusica.innerHTML = ``
     }
 }
